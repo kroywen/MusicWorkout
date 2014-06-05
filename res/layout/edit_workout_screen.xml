@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/background">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="10dp">
+    
+    <TextView
+        style="@style/AddWorkoutTextView"
+        android:text="@string/name" 
+        android:layout_marginTop="0dp" />
+    
+    <EditText
+        android:id="@+id/name"
+        style="@style/AddWorkoutEditText"
+        android:inputType="text"
+        android:text="@string/workout" />
+    
+    <TextView
+        style="@style/AddWorkoutTextView"
+        android:text="@string/workout_duration" />
+    
+    <EditText
+        android:id="@+id/workout_duration"
+        style="@style/AddWorkoutEditText"
+        android:inputType="time"
+        android:text="15:00" />
+    
+    <TextView
+        style="@style/AddWorkoutTextView"
+        android:text="@string/rest_duration" />
+    
+    <EditText
+        android:id="@+id/rest_duration"
+        style="@style/AddWorkoutEditText"
+        android:inputType="time"
+        android:text="15:00" />
+    
+    <TextView
+        style="@style/AddWorkoutTextView"
+        android:text="@string/repetitions" />
+    
+    <EditText
+        android:id="@+id/repetitions"
+        style="@style/AddWorkoutEditText"
+        android:inputType="number"
+        android:text="10" />
+    
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <Button
+            android:id="@+id/save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/save"
+            android:textSize="22sp"
+            android:textColor="#202020"
+            android:textStyle="bold"
+            android:background="@drawable/button_start" />
+    </LinearLayout>
+
+</LinearLayout>

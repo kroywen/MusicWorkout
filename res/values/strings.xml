@@ -1,0 +1,95 @@
+<resources>
+
+    <string name="app_name">Music Workouts</string>
+    
+    <string name="workouts">Workouts</string>
+    <string name="music">Music</string>
+    <string name="about">About</string>
+    <string name="add_workout">Add Workout</string>
+    <string name="name">Name</string>
+    <string name="workout_duration">Workout Duration</string>
+    <string name="rest_duration">Rest Duration</string>
+    <string name="repetitions">Repetitions, sets</string>
+    <string name="save">Save</string>
+    <string name="show">Show</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="workout">Workout</string>
+    <string name="minutes">Minutes</string>
+    <string name="seconds">Seconds</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">Ok</string>
+    <string name="sets">Sets</string>
+    <string name="all">All</string>
+    
+    <string name="music_settings">Music Settings</string>
+    <string name="select_playlist">Select Playlist</string>
+    <string name="playlist">Playlist</string>
+    <string name="select">Select</string>
+    <string name="shuffle_mode">Shuffle Mode</string>
+    <string name="rest_settings">Rest Settings</string>
+    <string name="none">None</string>
+    <string name="music_started">Music Started</string>
+    <string name="music_stopped">Music Stopped</string>
+    
+    <string name="lock">Lock</string>
+    <string name="total_workout_time">Total Workout Time</string>
+    <string name="work_for">Work For</string>
+    <string name="rest_for">Rest For</string>
+    <string name="sets_completed">Sets Completed</string>
+    <string name="start_workout">Start Workout</string>
+    <string name="resume_workout">Resume Workout</string>
+    <string name="pause_workout">Pause Workout</string>
+    <string name="sets_format">%1$d out of %2$d</string>
+    
+    <string name="playlists">Playlists</string>
+    <string name="create">Create</string>
+    <string name="enter_playlist_name">Enter playlist name</string>
+    <string name="add_song">Add Song</string>
+    <string name="edit_playlist">Edit Playlist</string>
+    <string name="select_song">Select Song</string>
+    <string name="playlist_is_selected">You can\'t delete selected playlist, please select another one before</string>
+    <string name="tell_prewritten_message">checkout the apps by The PE Geek on the Google Play Store <a>https://play.google.com/store/apps/developer?id=The+PE+Geek&amp;hl=en</a></string>
+    <string name="report_bug_template">Please describe steps to reproduce a bug:\n\n---------\nDevice: %1$s %2$s;\nOS Version:%3$s</string>
+    
+    <string name="help_and_support">Help And Support</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="visit_our_website">Visit Our Website</string>
+    <string name="rate_this_application">Rate This Application</string>
+    <string name="report_a_bug">Report A Bug</string>
+    <string name="tell_a_friend">Tell A Friend</string>
+    <string name="watch_video_tutorial">Watch Video Tutorial</string>
+    <string name="email_app_select">Select Email Application</string>
+    
+    <string name="pe_geek">The PE Geek</string>
+    <string name="fitness_tests">Fitness Tests</string>
+    <string name="pe_games">PE Games</string>
+    <string name="sports_rules">Sports Rules</string>
+    <string name="swim_games">SwimGames</string>
+    
+    <string name="pe_geek_desc">The PE Geek app is the one stop shop for teachers interested in utilising emerging technologies within Physical Education.</string>
+    <string name="fitness_tests_desc">Fitness Tests is the quick, easy handbook guide for PE teachers, sports coaches, personal trainers or anyone looking to measure their fitness.</string>
+    <string name="pe_games_desc">PE Games is the premier app for PE Teachers on the app store, containing over 100 games in a variety of categories.</string>
+    <string name="sports_rules_desc">Sports Rules is the perfect app for PE Teachers, Coaches, Athletes or anyone interested in swift easy reference of popular sports and their associated rules.</string>
+    <string name="swim_games_desc">SwimGames is a quick reference guide for a variety of games to play in the swimming pool. Teachers, Instructors and Parents can confidently and quickly look up fun games to play in their classes.</string>
+    
+    <string name="pe_geek_link">https://play.google.com/store/apps/details?id=com.thepegeek.android</string>
+    <string name="fitness_tests_link">https://play.google.com/store/apps/details?id=com.thepegeekapps.fittest</string>
+    <string name="pe_games_link">https://play.google.com/store/apps/details?id=com.pe.games</string>
+    <string name="sports_rules_link">https://play.google.com/store/apps/details?id=com.sportsrules</string>
+    <string name="swim_games_link">https://play.google.com/store/apps/details?id=com.swimgames</string>
+
+    <string-array name="shuffle_mode_items">
+        <item>Default</item>
+        <item>Songs</item>
+        <item>Albums</item>
+        <item>Off</item>
+    </string-array>
+    
+    <string-array name="volume_mode_items">
+        <item>Quiet During Rest</item>
+        <item>Pause At Rest</item>
+        <item>Bell At Rest</item>
+    </string-array>
+
+</resources>
